@@ -1,7 +1,7 @@
 # Page View Counter Plugin for [Flextype](http://flextype.org/)
 ![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg?style=flat-square)
 ![Flextype](https://img.shields.io/badge/Flextype-0.x-green.svg?style=flat-square)
-![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)]
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 Page View Counter plugin will help you to know how many readers of every page in your website.
 
