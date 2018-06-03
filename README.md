@@ -26,7 +26,7 @@ Define Flextype namespace in the template if it is not defined yet.
 
 Display page view counter
 ```
-<?php echo getPageViewCounter(); ?>
+Page views: <?php echo getPageViewCounter(); ?>
 ```
 
 ## Settings
