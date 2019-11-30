@@ -4,10 +4,10 @@ namespace Flextype;
 
 use Flextype\Component\Filesystem\Filesystem;
 
-class PageViewCounterController extends Controller {
+class PageViewCounterController extends Controller
+{
     public function counter()
     {
-
         $page = \Slim\Http\Uri::createFromEnvironment(new \Slim\Http\Environment($_SERVER))->getBaseUrl();
 
         if ($page == '') {
