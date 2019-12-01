@@ -1,3 +1,6 @@
+# v1.3.1, 2019-12-01
+* Fix URI for counter
+
 # v1.3.0, 2019-11-30
 * Updates for Flextype 0.9.6
 

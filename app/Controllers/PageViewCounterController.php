@@ -8,12 +8,12 @@ class PageViewCounterController extends Controller
 {
     public function counter()
     {
-        $page = \Slim\Http\Uri::createFromEnvironment(new \Slim\Http\Environment($_SERVER))->getBaseUrl();
+        $page = \Slim\Http\Uri::createFromEnvironment(new \Slim\Http\Environment($_SERVER))->getPath();
 
         if ($page == '') {
             $page = 'home';
         } else {
-            $page = str_replace("/", "-", $page);
+            $page = str_replace("/", "-", ltrim(rtrim($page, '/'), '/'));
         }
 
         $dir = PATH['site'] . '/data/page-view-counter/';
