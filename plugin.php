@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace Flextype\Plugin\PageViewCounter {
 
     use Twig\TwigFunction;
+    use Slim\Http\Uri;
+    use Slim\Http\Environment;
 
     /**
      * Get page view counter
@@ -13,7 +15,7 @@ namespace Flextype\Plugin\PageViewCounter {
      */
     function pageViewCounter(): int
     {
-        $page = \Slim\Http\Uri::createFromEnvironment(new \Slim\Http\Environment($_SERVER))->getPath();
+        $page = Uri::createFromEnvironment(new Environment($_SERVER))->getPath();
 
         $saveDir = PATH['project'] . '/data/page-view-counter/';
 
