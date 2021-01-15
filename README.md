@@ -10,8 +10,6 @@ Page View Counter plugin will help you to know how many readers of every page in
 
 The following dependencies need to be installed for Page View Counter Plugin.
 
-## System
-
 | Item | Version | Download |
 |---|---|---|
 | [flextype](https://github.com/flextype/flextype) | 0.9.16 | [download](https://github.com/flextype/flextype/releases) |
