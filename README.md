@@ -26,7 +26,7 @@ The following dependencies need to be installed for Page View Counter Plugin.
 | Key | Value | Description |
 |---|---|---|
 | enabled | true | true or false to disable the plugin |
-| priority | 100 | Icon plugin priority |
+| priority | 100 | Page View Counter plugin priority |
 
 ## Documentation
 
