@@ -1,3 +1,6 @@
+# v2.0.0, 2021-01-16
+* Total plugin rewrite.
+
 # v1.3.1, 2019-12-01
 * Fix URI for counter
 
