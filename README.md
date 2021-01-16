@@ -18,8 +18,8 @@ The following dependencies need to be installed for Page View Counter Plugin.
 ## Installation
 
 1. Download & Install all required dependencies.
-2. Create new folder `/project/plugins/icon`
-3. Download Page View Counter Plugin and unzip plugin content to the folder `/project/plugins/icon`
+2. Create new folder `/project/plugins/page-view-counter`
+3. Download Page View Counter Plugin and unzip plugin content to the folder `/project/plugins/page-view-counter`
 
 ## Settings
 
